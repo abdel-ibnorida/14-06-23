@@ -1,0 +1,27 @@
+.todo_notcompleted {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 160px;
+    height: 220px;
+    background-color: rgba(255, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.todo_completed {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 160px;
+    height: 220px;
+    background-color: rgba(4, 86, 3, 0.5);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.todo:hover {
+    scale: 1.15;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
